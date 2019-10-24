@@ -24,7 +24,7 @@ h6 {
 }
 
 a {
-  color: #1e1e1e;
+  color:#5e8cff;
   transition: all 0.5s ease-in-out;
 }
 
@@ -209,7 +209,7 @@ a:hover {
   display: inline-block;
 }
 
-.socials .ico-circle {
+.socials . circle {
   height: 40px;
   width: 40px;
   font-size: 1.7rem;
@@ -671,6 +671,25 @@ a:hover {
 //--//-->   ABOUT
 ======================================*/
 
+.img-fluid {
+  object-fit: fill;
+}
+
+#GitHubLogo {
+  width: 7%;
+  height: 7%;
+}
+
+#LinkedInLogo {
+  width: 35%;
+  height: 35%
+}
+
+#LinkedInLogoCV {
+  width: 10%;
+  height: 10%
+}
+
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -703,6 +722,11 @@ a:hover {
 /*======================================
 //--//-->   SERVICES
 ======================================*/
+
+.CVCompany {
+  text-align: center;
+  font-style: italic;
+}
 
 .service-box {
   background-color: #fff;
