@@ -728,6 +728,11 @@ a:hover {
   font-style: italic;
 }
 
+.CVTimeline {
+  text-align: center;
+  font-style: italic;
+}
+
 .service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
