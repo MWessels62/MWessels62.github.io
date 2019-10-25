@@ -733,6 +733,15 @@ a:hover {
   font-style: italic;
 }
 
+.CVImages {
+  border-radius: 50%;
+  max-width: 80%;
+  max-height: 80%;
+  position: relative;
+  top: -10px;
+  /*display: inline-block;  remove extra space below image */
+}
+
 .service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
