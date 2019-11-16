@@ -149,7 +149,7 @@ a:hover {
 
 .title-a {
   font-size: 3rem;
-  font-weight: bold;
+  /*font-weight: bold;*/
   text-transform: uppercase;
 }
 
@@ -209,14 +209,24 @@ a:hover {
   display: inline-block;
 }
 
-.socials . circle {
-  height: 40px;
-  width: 40px;
+.socials .circle {
+  height: 50px;
+  width: 50px;
   font-size: 1.7rem;
   border-radius: 50%;
   line-height: 1.4;
-  margin: 0 15px 0 0;
+  margin: 0 auto;
+  text-align: center ;
+  top: 100px;
   box-shadow: 0 0 0 3px #0078ff;
+  transition: all 500ms ease;
+  display: block;
+
+}
+.socials .circle:hover {
+  background-color: #0078ff;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
 }
 
@@ -253,8 +263,8 @@ a:hover {
 /*------/ Ico Circle /------*/
 
 .ico-circle {
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
   font-size: 2rem;
   border-radius: 50%;
   line-height: 1.55;
